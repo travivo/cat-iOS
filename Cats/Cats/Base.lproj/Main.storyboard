@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cat View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CatViewController" customModule="Cats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="axq-Cv-6Wt">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEI-D9-qRj">
+                                <rect key="frame" x="0.0" y="494.33333333333326" width="393" height="357.66666666666674"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpM-dJ-ChT">
+                                        <rect key="frame" x="36" y="108.00000000000004" width="321" height="141.66666666666663"/>
+                                        <string key="text">Of all the species of cats, the domestic cat is the only species able to hold its tail vertically while walking. All species of wild cats hold their talk horizontally or tucked between their legs while walking.</string>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="OpM-dJ-ChT" secondAttribute="trailing" constant="36" id="4D5-gj-wER"/>
+                                    <constraint firstItem="OpM-dJ-ChT" firstAttribute="top" secondItem="UEI-D9-qRj" secondAttribute="top" constant="108" id="L4g-Ex-gjV"/>
+                                    <constraint firstItem="OpM-dJ-ChT" firstAttribute="leading" secondItem="UEI-D9-qRj" secondAttribute="leading" constant="36" id="S0v-Ga-hHF"/>
+                                    <constraint firstAttribute="bottom" secondItem="OpM-dJ-ChT" secondAttribute="bottom" constant="108" id="e3i-wq-pBR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="axq-Cv-6Wt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2lR-A6-h0r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UEI-D9-qRj" secondAttribute="trailing" id="3yJ-DK-VKS"/>
+                            <constraint firstAttribute="bottom" secondItem="axq-Cv-6Wt" secondAttribute="bottom" id="KKt-6g-2Pa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="axq-Cv-6Wt" secondAttribute="trailing" id="g3l-0p-V5O"/>
+                            <constraint firstItem="UEI-D9-qRj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h8L-f0-qo7"/>
+                            <constraint firstAttribute="bottom" secondItem="UEI-D9-qRj" secondAttribute="bottom" id="pfx-8F-5eK"/>
+                            <constraint firstItem="axq-Cv-6Wt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wdb-8V-Rg9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="catFactsLabel" destination="OpM-dJ-ChT" id="wpt-cC-3rb"/>
+                        <outlet property="catFactsView" destination="UEI-D9-qRj" id="pnS-lA-Jrf"/>
+                        <outlet property="imageView" destination="axq-Cv-6Wt" id="6Sf-FR-xzG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

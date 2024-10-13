@@ -41,7 +41,15 @@ The **Cat App** is a fun iOS application that displays random cat images along w
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/travivo/cat-iOS.git
-   
+
+### **Testing**
+
+This project includes unit tests to ensure the functionality of key components. The tests verify:
+
+- Data Fetching: Ensures that cat facts and images are successfully fetched from the API.
+- Image Loading and Caching: Tests the functionality of loading images and caching them for improved performance.
+
+
 ## **Acknowledgments**
 
 - **[The Cat API](https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t)** for providing cat images.

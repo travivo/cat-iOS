@@ -23,6 +23,7 @@
 		ACF0210E2CB9711D0069FEAD /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0210D2CB9711D0069FEAD /* CatViewModel.swift */; };
 		ACF021132CBA21D40069FEAD /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF021122CBA21D40069FEAD /* UIExtensions.swift */; };
 		ACF021162CBB32D70069FEAD /* CatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */; };
+		ACF0211D2CBB65EE0069FEAD /* CatViewModelNegativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0211C2CBB65EE0069FEAD /* CatViewModelNegativeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		ACF0210D2CB9711D0069FEAD /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		ACF021122CBA21D40069FEAD /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModelTests.swift; sourceTree = "<group>"; };
+		ACF0211C2CBB65EE0069FEAD /* CatViewModelNegativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModelNegativeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				ACF020E22CB95C120069FEAD /* CatsTests.swift */,
 				ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */,
+				ACF0211C2CBB65EE0069FEAD /* CatViewModelNegativeTests.swift */,
 			);
 			path = CatsTests;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF0211D2CBB65EE0069FEAD /* CatViewModelNegativeTests.swift in Sources */,
 				ACF020E32CB95C120069FEAD /* CatsTests.swift in Sources */,
 				ACF021162CBB32D70069FEAD /* CatViewModelTests.swift in Sources */,
 			);

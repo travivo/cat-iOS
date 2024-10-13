@@ -14,8 +14,8 @@ class CatViewModel {
     
     var catFacts: [String] = []
     var catImageUrls: [CatImage] = []
-    private var currentImageIndex = 0
-    private var imageCache: [String: UIImage] = [:]
+    var currentImageIndex = 0
+    var imageCache: [String: UIImage] = [:]
     
     private let catAPIService = CatAPIService()
     

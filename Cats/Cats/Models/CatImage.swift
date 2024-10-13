@@ -12,4 +12,11 @@ struct CatImage: Decodable {
     let url: String
     let width: Int
     let height: Int
+    
+    init(url: String) {
+        self.id = ""
+        self.url = url
+        self.width = 0
+        self.height = 0
+    }
 }

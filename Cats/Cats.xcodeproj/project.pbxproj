@@ -22,6 +22,7 @@
 		ACF0210C2CB96BDE0069FEAD /* CatAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0210B2CB96BDE0069FEAD /* CatAPIService.swift */; };
 		ACF0210E2CB9711D0069FEAD /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0210D2CB9711D0069FEAD /* CatViewModel.swift */; };
 		ACF021132CBA21D40069FEAD /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF021122CBA21D40069FEAD /* UIExtensions.swift */; };
+		ACF021162CBB32D70069FEAD /* CatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		ACF0210B2CB96BDE0069FEAD /* CatAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPIService.swift; sourceTree = "<group>"; };
 		ACF0210D2CB9711D0069FEAD /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		ACF021122CBA21D40069FEAD /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,7 @@
 				ACF021052CB968610069FEAD /* App */,
 				ACF021022CB9641C0069FEAD /* Models */,
 				ACF020FF2CB95FEC0069FEAD /* ViewModels */,
-				ACF020FB2CB95D0A0069FEAD /* ViewControllers */,
+				ACF020FB2CB95D0A0069FEAD /* View */,
 				ACF020D12CB95C0F0069FEAD /* Main.storyboard */,
 				ACF020D42CB95C120069FEAD /* Assets.xcassets */,
 				ACF020D62CB95C120069FEAD /* LaunchScreen.storyboard */,
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF020E22CB95C120069FEAD /* CatsTests.swift */,
+				ACF021152CBB32D70069FEAD /* CatViewModelTests.swift */,
 			);
 			path = CatsTests;
 			sourceTree = "<group>";
@@ -142,12 +145,12 @@
 			path = CatsUITests;
 			sourceTree = "<group>";
 		};
-		ACF020FB2CB95D0A0069FEAD /* ViewControllers */ = {
+		ACF020FB2CB95D0A0069FEAD /* View */ = {
 			isa = PBXGroup;
 			children = (
 				ACF020FE2CB95FE00069FEAD /* Cat */,
 			);
-			path = ViewControllers;
+			path = View;
 			sourceTree = "<group>";
 		};
 		ACF020FE2CB95FE00069FEAD /* Cat */ = {
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF020E32CB95C120069FEAD /* CatsTests.swift in Sources */,
+				ACF021162CBB32D70069FEAD /* CatViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,8 +532,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,8 +560,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
